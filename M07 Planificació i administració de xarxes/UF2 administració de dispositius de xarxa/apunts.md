@@ -1,6 +1,6 @@
 # Apunts M07 UF2
 
-## Index
+## Index / Taula de continguts
 
 ### 0 - Basic commands
 
@@ -69,15 +69,24 @@
         no shutdown                                 #Engega el port en cas de que estigui "apagat", norma general per els routers, per defecte els ports venen apagats.
 
 
-- link donat per el professor: https://docs.google.com/presentation/d/1tLuWNrKSHB87FfXOI5PWnu1zsa-2OOr7PEV57FIG91E/edit#slide=id.p
+- link donat pelprofessor: https://docs.google.com/presentation/d/1tLuWNrKSHB87FfXOI5PWnu1zsa-2OOr7PEV57FIG91E/edit#slide=id.p
+
+### 2 - Routing / Enrutament
 
 
-### 2 Routing / Enrutament
+- link donat pelprofessor: https://docs.google.com/presentation/d/1aEEUGo-kgncIL8TqYrOQp5t9gZD1fQJAUKXk83Ojaj8/edit#slide=id.g10b83b3be1_0_79
+
+### 3 - DHCP (Router)
+
+#### Passos a seguir
+
+    1 - Haurem de definir un o més rangs d’adreces a repartir : pool.
+    2 - Activem el servei DHCP (tot i que per defecte està activat).
+    3 - I ja només queda connectar hosts.
+    4 - 0j0 : si tenim més d’un pool, cada pool només es reparteix per la interfície que tingui una adreça de la xarxa del pool.
 
 
-- link donat per el professor: https://docs.google.com/presentation/d/1aEEUGo-kgncIL8TqYrOQp5t9gZD1fQJAUKXk83Ojaj8/edit#slide=id.g10b83b3be1_0_79
-
-### 3 DHCP (Router)
+#### Commandes
 
     enable
     conf t
@@ -91,13 +100,15 @@
         
     ip dhcp excluded-address 192.168.1.10                   #Excloure una única IP        
     ip dhcp excluded-address 192.168.1.1 192.168.1.5        #Excloure un rang d'IPs
-    service dhcp                                            #Iniciar DHCP
+    service dhcp                                            #Iniciar el servei DHCP
 
+- link cisco: - link donat pelprofessor: https://docs.google.com/presentation/d/1hl3Obd_APUo6_HX1WnE4AfWA29VtseL4sOIeEOiSX0M/edit#slide=id.p
+- link donat pelprofessor: https://docs.google.com/presentation/d/1hl3Obd_APUo6_HX1WnE4AfWA29VtseL4sOIeEOiSX0M/edit#slide=id.p
 
 ### 5 - Reset Switchs
 
 
-- link donat per el professor:  https://docs.google.com/document/d/1mdc4qhoJs1b_8YsuQ03g8GaVkWs2PC2dtAgrucDu2XM/edit
+- link donat pelprofessor:  https://docs.google.com/document/d/1mdc4qhoJs1b_8YsuQ03g8GaVkWs2PC2dtAgrucDu2XM/edit
 
 ### 6 - Reset Router
 
@@ -135,12 +146,24 @@
     7 - Close the terminal emulator window on your laptop.
     8 - Power off the router.
 
-### 7 - Mostrar Informacio
+    
 
-- Mostrar informació dels ports (Interface | IP | Method |  Status UP/DOWN | Protocol).
+### 7 - SNMP
+
+- link donat pelprofessor: https://docs.google.com/presentation/d/1lGcFefzJfQW3cKIr1WcaLY7hSMRnrQ8P3TXT_BOYfeI/edit    
+    
+### 8 - Mostrar Informació
+
+- Mostrar informació dels ports     (Interface | IP | Method |  Status UP/DOWN | Protocol).
 
 
     show ip interface brief
+
+
+- Mostrar informació de les assignacions del DHCP.
+
+    
+    show ip dhcp binding             (IP | MAC | Lease expiration | Type)
 
 
 - Mostrar tota l'informació en forma d'script.
@@ -148,3 +171,8 @@
 
     show running-config
 
+nota, revisar links
+
+### 9 - Diferencia Acces Point i Repetidor?¿
+
+    Text

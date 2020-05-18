@@ -86,25 +86,23 @@
         Engega el port en cas de que estigui "apagat", norma general per els routers, per defecte els ports venen apagats.
 
 
+- link donat per el professor: https://docs.google.com/presentation/d/1tLuWNrKSHB87FfXOI5PWnu1zsa-2OOr7PEV57FIG91E/edit#slide=id.p
+
+
+### 2 Routing / Enrutament
+
+
+- link donat per el professor: https://docs.google.com/presentation/d/1aEEUGo-kgncIL8TqYrOQp5t9gZD1fQJAUKXk83Ojaj8/edit#slide=id.g10b83b3be1_0_79
 
 
 
 
+### 5 - Reset Switchs
 
 
+- link donat per el professor:  https://docs.google.com/document/d/1mdc4qhoJs1b_8YsuQ03g8GaVkWs2PC2dtAgrucDu2XM/edit
 
-
-
-
-
-
-##### link: https://docs.google.com/presentation/d/1tLuWNrKSHB87FfXOI5PWnu1zsa-2OOr7PEV57FIG91E/edit#slide=id.p
-
-
-
-### 2 - Reset Switchs
-
-### 3 - Reset Router
+### 6 - Reset Router
 
 #### Cisco
 
@@ -143,7 +141,6 @@
 
 
 
-- link donat per el professor:  https://docs.google.com/document/d/1mdc4qhoJs1b_8YsuQ03g8GaVkWs2PC2dtAgrucDu2XM/edit
 
 
 

@@ -35,8 +35,8 @@
 
 
 #### Seguretat REVISAR
-    hostname Rxxxx
-    enable password cisco
+    hostname NOMPERALDISPOSITIU
+    enable password USER
     enable secret class
     username USERNAME privilege 15 secret 0 PASSWD 
     line vty 0 4
@@ -64,26 +64,9 @@
 - Fast Ethernet 0/1
 
 
-    interface Fast/Ethernet 0/1
-        ip address 192.168.1.80 255.255.255.0
-        no shutdown
-
-
-
-- Descripció de cada commanda
-
-
-    - interface Fast/Ethernet 0/1
-    
-        Accedir a la configuració del port
-
-    - ip address 192.168.1.80 255.255.255.0
-    
-        Assigna la ip i mascara donada
-
-    - no shutdown
-    
-        Engega el port en cas de que estigui "apagat", norma general per els routers, per defecte els ports venen apagats.
+    interface Fast/Ethernet 0/1                     #Accedir a la configuració del port
+        ip address 192.168.1.80 255.255.255.0       #Assigna la ip i mascara donada
+        no shutdown                                 #Engega el port en cas de que estigui "apagat", norma general per els routers, per defecte els ports venen apagats.
 
 
 - link donat per el professor: https://docs.google.com/presentation/d/1tLuWNrKSHB87FfXOI5PWnu1zsa-2OOr7PEV57FIG91E/edit#slide=id.p
@@ -94,7 +77,21 @@
 
 - link donat per el professor: https://docs.google.com/presentation/d/1aEEUGo-kgncIL8TqYrOQp5t9gZD1fQJAUKXk83Ojaj8/edit#slide=id.g10b83b3be1_0_79
 
+### 3 DHCP (Router)
 
+    enable
+    conf t
+    ip dhcp pool POOL-NAME
+        network 			192.168.1.0 255.255.255.0
+        default-router 	    192.168.1.1
+        dns-server 	    	192.168.1.5 195.170.0.1         #IP1 IP2, es pot utilitzar només una IP
+        lease               0 0 10                          #10 minuts  
+        exit
+        
+        
+    ip dhcp excluded-address 192.168.1.10                   #Excloure una única IP        
+    ip dhcp excluded-address 192.168.1.1 192.168.1.5        #Excloure un rang d'IPs
+    service dhcp                                            #Iniciar DHCP
 
 
 ### 5 - Reset Switchs
@@ -137,16 +134,6 @@
     6 - Wait until the reload or erase finishes and a CLI prompt or completion message appears.
     7 - Close the terminal emulator window on your laptop.
     8 - Power off the router.
-
-
-
-
-
-
-
-
-
-
 
 ### 7 - Mostrar Informacio
 

@@ -21,7 +21,7 @@
 
         #Copy running-config startup-config
         
-- Reboot router   REVISAR
+- Reboot router
 
         #reboot
 

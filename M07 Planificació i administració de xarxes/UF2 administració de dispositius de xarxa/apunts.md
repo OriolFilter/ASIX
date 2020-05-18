@@ -2,6 +2,12 @@
 
 ## Index / Taula de continguts
 
+### -1 - Lèxic
+
+- link 1: https://ioc.xtec.cat/materials/FP/Materials/2251_ASIX/ASIX_2251_M07/web/html/WebContent/u3/resum.html
+
+- link 2: https://ioc.xtec.cat/materials/FP/Materials/2251_ASIX/ASIX_2251_M07/web/html/WebContent/u4/resum.html
+
 ### 0 - Basic commands
 
 - Login
@@ -69,12 +75,12 @@
         no shutdown                                 #Engega el port en cas de que estigui "apagat", norma general per els routers, per defecte els ports venen apagats.
 
 
-- link donat pelprofessor: https://docs.google.com/presentation/d/1tLuWNrKSHB87FfXOI5PWnu1zsa-2OOr7PEV57FIG91E/edit#slide=id.p
+- link donat pel professor: https://docs.google.com/presentation/d/1tLuWNrKSHB87FfXOI5PWnu1zsa-2OOr7PEV57FIG91E/edit#slide=id.p
 
 ### 2 - Routing / Enrutament
 
 
-- link donat pelprofessor: https://docs.google.com/presentation/d/1aEEUGo-kgncIL8TqYrOQp5t9gZD1fQJAUKXk83Ojaj8/edit#slide=id.g10b83b3be1_0_79
+- link donat pel professor: https://docs.google.com/presentation/d/1aEEUGo-kgncIL8TqYrOQp5t9gZD1fQJAUKXk83Ojaj8/edit#slide=id.g10b83b3be1_0_79
 
 ### 3 - DHCP (Router)
 
@@ -103,12 +109,12 @@
     service dhcp                                            #Iniciar el servei DHCP
 
 - link cisco: - link donat pelprofessor: https://docs.google.com/presentation/d/1hl3Obd_APUo6_HX1WnE4AfWA29VtseL4sOIeEOiSX0M/edit#slide=id.p
-- link donat pelprofessor: https://docs.google.com/presentation/d/1hl3Obd_APUo6_HX1WnE4AfWA29VtseL4sOIeEOiSX0M/edit#slide=id.p
+- link donat pel professor: https://docs.google.com/presentation/d/1hl3Obd_APUo6_HX1WnE4AfWA29VtseL4sOIeEOiSX0M/edit#slide=id.p
 
-### 5 - Reset Switchs
+### 5 - Reset Switch
 
 
-- link donat pelprofessor:  https://docs.google.com/document/d/1mdc4qhoJs1b_8YsuQ03g8GaVkWs2PC2dtAgrucDu2XM/edit
+- link donat pel professor:  https://docs.google.com/document/d/1mdc4qhoJs1b_8YsuQ03g8GaVkWs2PC2dtAgrucDu2XM/edit
 
 ### 6 - Reset Router
 
@@ -150,7 +156,7 @@
 
 ### 7 - SNMP
 
-- link donat pelprofessor: https://docs.google.com/presentation/d/1lGcFefzJfQW3cKIr1WcaLY7hSMRnrQ8P3TXT_BOYfeI/edit    
+- link donat pel professor: https://docs.google.com/presentation/d/1lGcFefzJfQW3cKIr1WcaLY7hSMRnrQ8P3TXT_BOYfeI/edit    
     
 ### 8 - Mostrar Informació
 
@@ -173,6 +179,6 @@
 
 nota, revisar links
 
-### 9 - Diferencia Acces Point i Repetidor?¿
+### 9 - Diferencia WIFI Acces Point i Router
 
-    Text
+- link donat pel professor: https://docs.google.com/presentation/d/1ipblsDjdBznszbCx0uNhPiI37qKjIde23PXJD_ziRyA/edit
